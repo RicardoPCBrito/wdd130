@@ -151,9 +151,10 @@ footer img {
     width: 50px;
 }
 
-h2 {
+h1, h2 {
     align-self: center;
     margin: 10px;
+    color: var(--accent2-color);
 }
 
 .info {
