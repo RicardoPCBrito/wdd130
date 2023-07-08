@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>WWR | Contact Us</title>
     <meta name="author" content="Ricardo Brito">
     <meta name="description" content="Page with our contact">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -34,7 +34,8 @@
         </section>
 
         <section>
-            <span>
+            <h2>Meet some of our employees:</h2>
+            <div class="employee">
                 <figure>
                     <img src="images/employee-1.jpg" alt="Julia - Rafting Guide">
                     <figcaption>Julia - Rafting Guide</figcaption>
@@ -47,7 +48,7 @@
                     <img src="images/employee-3.jpg" alt="Ricardo - WWR Founder">
                     <figcaption>Ricardo - WWR Founder</figcaption>
                 </figure>
-            </span>
+            </div>
         </section>
 
         <div class="sendmessage">
@@ -55,21 +56,21 @@
             <form>
                 <label for="username">Name:</label><br>
                 <input type="text" name="username" id="username"><br>
-                <label   label for="useremail">E-mail:</label><br>
+                <label for="useremail">E-mail:</label><br>
                 <input type="email" name="useremail" id="useremail"><br>
                 
-                <label for="purpose">Purpose of the Message:</label><br>
+                <label for="purpose1">Purpose of the Message:</label><br>
                 <div class="radio">
                     <input type="radio" name="purpose" id="purpose1" value="General Inquiry">
-                    <label for="purpose">General Inquiry</label>
+                    <label for="purpose1">General Inquiry</label>
                 </div>
                 <div class="radio">
                     <input type="radio" name="purpose" id="purpose2" value="Reservation Question">
-                    <label for="purpose">Reservation Question</label>
+                    <label for="purpose2">Reservation Question</label>
                 </div>
                 <div class="radio">
                     <input type="radio" name="purpose" id="purpose3" value="Website Suggestion">
-                    <label for="purpose">Website Sugegstion</label>
+                    <label for="purpose3">Website Sugegstion</label>
                 </div>
 
                 <label for="message">Write your message:</label><br>
@@ -83,9 +84,12 @@
         </div>
     </main>
     <footer>
-        <span>
+        <div class="footer">
             <p>&copy;2024 | White Water Rafting | Ricardo Brito</p>
             <nav>
+                <a href="https://app.moqups.com/kK7KLXCujd8RYXs0fA3g0eAbDKX1QA9s/view/page/ad64222d5" target="_blank">
+                    Wireframe
+                </a>
                 <a href="https://www.facebook.com" target="_blank">
                     <img src="images/facebook_icon.svg" alt="Facebook">
                 </a>
@@ -96,7 +100,7 @@
                     <img src="images/twitter_icon.svg" alt="Twitter">
                 </a>
             </nav>
-        </span>
+        </div>
     </footer>
 </body>
 </html>

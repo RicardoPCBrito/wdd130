@@ -104,6 +104,15 @@ span {
     display: flex;
 }
 
+.employee {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    gap: 250px;
+}
+
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
@@ -132,11 +141,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-}
-
-footer span {
-    display: flex;
-    gap: 300px;
 }
 
 footer nav {
