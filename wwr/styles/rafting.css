@@ -185,7 +185,7 @@ h1, h2 {
     margin: 10px;
 }
 
-form {
+.sendmessage form {
     width: 700px;
     background-color: var(--primary-color);
     border-radius: 15px;
@@ -196,7 +196,7 @@ label {
     font-weight: bold;
 }
 
-input[type=text], input[type=email], textarea {
+.sendmessage input[type=text], .sendmessage input[type=email], textarea {
     width: 100%;
     border: 1px solid var(--accent1-color);
     border-radius: 15px;
@@ -221,4 +221,177 @@ form button {
 
 form button:hover {
     background-color: #0d3e47;
+}
+
+table {
+    width: 100%;
+    padding: 30px;
+  }
+
+table a {
+    background-color: var(--accent2-color);
+    padding: 30px 50px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+  }
+
+  .action {
+    position: relative;
+   }
+   
+   .action img {
+       display: block;
+       width: 100%;
+       height: auto;
+       object-fit: cover;
+   }
+
+.call {
+    width: 95%;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    top: 75px;
+    padding: 15px;
+    margin: 15px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center  ;
+    background-color: var(--accent2-color);
+    flex-direction: column;
+}
+
+.action a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-weight: bolder;
+}
+
+.action a:hover {
+    color: var(--primary-color);
+}
+
+.homehero {
+    position: relative;
+}
+   
+.homehero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+   
+.homehero h1 {
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+}
+   
+.homehero article {
+    width: 95%;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    top: 75px;
+    padding: 15px;
+    margin: 15px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center  ;
+    background-color: var(--accent2-color);
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    padding: 15px;
+
+}
+
+.container form {
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.container input[type=text], input[type=email], textarea {
+    width: 100%;
+    border: 1px solid var(--accent1-color);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+}
+
+.container div {
+    padding: 10px;
+    height: 250px;
+}
+
+.newsletter {
+    grid-column-start:1;
+    grid-column-end: 2;
+}
+
+.info1 article img {
+    width: 200px;
+    float: right;
+}
+
+.info2 article img {
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.info1 article, .info2 article {
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
+    top: 75px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.info1 h2, .info2 h2, .homehero h2 {
+    color: white;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.calltoaction a {
+    width: 100px;
+    background-color: var(--accent2-color);
+    padding: 30px 50px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
